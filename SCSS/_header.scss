@@ -1,0 +1,27 @@
+.header{
+	grid-area: header;
+	nav{
+		.menu{
+			background-color: $bg-oscuro;
+			list-style-type: none;
+			padding: 5px;
+			width: 100%;
+			margin: 20px auto;
+			@include flex();
+			li{
+				padding: 0.8rem;
+				margin: 0.7rem;
+				a{
+					color:$text
+					text-decoration none;
+					padding: 1.5rem;
+					&:hover{
+						background-color: $bg-claro;
+						font-weight: bold;
+					}
+				}
+			}
+
+		}
+	}
+}

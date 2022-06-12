@@ -1,0 +1,10 @@
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+@mixin flex (){
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

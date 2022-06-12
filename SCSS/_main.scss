@@ -1,0 +1,25 @@
+.main{
+	grid-area: main;
+	.titulo{
+		text-decoration: underline;
+		text-align: center;
+		font-size: 2rem;
+		.pizzeria{
+			display: flex;
+			justify-content: center;
+			padding:1rem;
+			color: $text;
+			.texto{
+				line-height: 2;
+				padding: 2rem;
+				width: 50%;
+				.imagen{
+					width: 50%;
+					object-fit: cover;
+					object-position: center center;
+					margin: 1rem;
+				}
+			}
+		}
+	}
+}

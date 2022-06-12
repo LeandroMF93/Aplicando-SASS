@@ -1,0 +1,22 @@
+.footer{
+	grid-area: footer;
+	background-image: linear-gradient(#ffbb00, crimson);	
+	padding: 5px;
+	width: 100%;
+	margin: 20px auto;
+	@include flex;
+	h5{
+		color: $text;
+	}
+	.redes{
+		display: flex;
+		justify-content: flex-end;
+		padding: 0.7rem;
+		margin: 0.7rem;
+		img{
+			border-radius: 30px;
+			padding: 10px;
+		}
+	}
+
+}
